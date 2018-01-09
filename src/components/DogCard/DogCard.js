@@ -10,6 +10,7 @@ const DogCard = props => (
   		// props.checkArray();
   		// newArray.push(props.id);
   		props.pushArray(props.id);
+      props.addPoints();
   		// console.log(newArray);
   		}
   	}>

@@ -8,27 +8,42 @@ import shuffle from "shuffle-array";
 
 let newArray = []
 
+
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     friends,
-    newArray
+    newArray,
+    points: 0
   };
 
   shuffleCards = () => {
+    console.log("shuffleCards function below");
     const friends = shuffle(this.state.friends);
     this.setState({friends});
     console.log(friends);
+    console.log("========================")
   };
 
   pushArray = (friend) => {
+    console.log("pushArray function below:");
     newArray.push(friend);
     // this.setState({newArray});
     // console.log(this.state.friends);
-    console.log(friends.id);
-    console.log(newArray);
-    console.log("Am I broken?");
+    // console.log(friends.id);
+    this.setState({newArray});
+    console.log("newArray:" + newArray);
+    console.log("========================");
+
   };
+
+  addPoints = () => {
+    console.log("addPoints function below:");
+    const points = this.state.points + 1;
+    this.setState({points});
+    console.log("points:" + points);
+    console.log("========================");    
+  }
 
   render() {
     return (
@@ -46,6 +61,7 @@ class App extends Component {
             location={friend.location}
             shuffleCards={this.shuffleCards}
             pushArray={this.pushArray}
+            addPoints={this.addPoints}
           />
         ))}
       </Wrapper>
