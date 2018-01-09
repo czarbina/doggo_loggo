@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Pitbull",
+    "image": "http://assets.stickpng.com/thumbs/5847f60fcef1014c0b5e48a2.png"
+  },
+  {
+    "id": 2,
+    "name": "Chihuahua",
+    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bbcd.png"
+  },
+  {
+    "id": 3,
+    "name": "Great Dane",
+    "image": "https://www.chelseadogs.com/media/wysiwyg/shop-by-breed/great-dane-harlequin-xs.png"
+  },
+  {
+    "id": 4,
+    "name": "French Bulldog",
+    "image": "https://www.elitebulldog.com/wp-content/uploads/2015/04/Frenchie.png"
+  },
+  {
+    "id": 5,
+    "name": "English bulldog",
+    "image": "https://sep.yimg.com/ty/cdn/entirelypets/bulldog.png"
+  },
+  {
+    "id": 6,
+    "name": "Basset Hound",
+    "image": "https://www.123-stickers.com/7145-7524-thickbox/Array.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Husky",
+    "image": "http://iheartdogs.com/wp-content/shop-by-breed-image/huskies.png"
+  },
+  {
+    "id": 8,
+    "name": "Shepherd",
+    "image": "http://freepngimages.com/wp-content/uploads/2014/04/germanshepherd_2.png"
+  },
+  {
+    "id": 9,
+    "name": "Terrier",
+    "image": "https://i2.wp.com/freepngimages.com/wp-content/uploads/2014/04/Dog2_2.png?fit=220%2C220"
+  },
+  {
+    "id": 10,
+    "name": "Bull terrier",
+    "image": "http://www.worldlydogs.com/uploads/5/2/2/3/52234445/3267193_orig.png"
+  },
+  {
+    "id": 11,
+    "name": "Newfoundland",
+    "image": "http://www.worldlydogs.com/uploads/5/2/2/3/52234445/8931061_orig.png"
+  },
+  {
+    "id": 12,
+    "name": "Bernese",
+    "image": "http://www.worldlydogs.com/uploads/5/2/2/3/52234445/9186705.png",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  },
+  {
+    "id": 13,
+    "name": "Dalmation",
+    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bbd4.png"
+  },
+  {
+    "id": 14,
+    "name": "Mastiff",
+    "image": "http://www.worldlydogs.com/uploads/5/2/2/3/52234445/5267667_orig.png"
+  },
+  {
+    "id": 15,
+    "name": "Rottie",
+    "image": "http://iheartdogs.com/wp-content/shop-by-breed-image/rottweilers.png"
+  }
+]
