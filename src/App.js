@@ -65,10 +65,11 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
+      <div>
         <Title
           points={this.state.points}
         />
+        <Wrapper>
         {this.state.friends.map(friend => (
           <DogCard
             // removeFriend={this.removeFriend}
@@ -85,7 +86,8 @@ class App extends Component {
             checkArray={this.checkArray}
           />
         ))}
-      </Wrapper>
+        </Wrapper>
+      </div>  
     );
   }
 }

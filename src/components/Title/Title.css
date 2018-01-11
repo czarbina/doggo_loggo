@@ -1,8 +1,9 @@
-.title {
-  width: 100%;
-  text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+a {
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+nav {
+	height: 80px;
+	padding: auto;
 }
