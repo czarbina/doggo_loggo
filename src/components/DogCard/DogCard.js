@@ -4,7 +4,7 @@ import "./DogCard.css";
 // var newArray = [];
 
 const DogCard = props => (
-  <div className="card" onClick= {
+  <div className="card z-depth-5" onClick= {
   	() => {
   		// props.shuffleCards();
   		// props.checkArray();
@@ -15,9 +15,7 @@ const DogCard = props => (
       // console.log(props.checkArray(props.id));
   		}
   	}>
-    <div className="img-container">
-      <img alt={props.name} src={props.image} />
-    </div>
+      <img className="waves-effect waves-light btn" alt={props.name} src={props.image} />
     
   </div>
 );

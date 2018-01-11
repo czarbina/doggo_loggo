@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import DogCard from "./components/DogCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Jumbotron from "./components/Jumbotron";
 import friends from "./friends.json";
 import "./App.css";
 import shuffle from "shuffle-array";
