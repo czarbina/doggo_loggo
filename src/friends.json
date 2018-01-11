@@ -75,5 +75,20 @@
     "id": 15,
     "name": "Rottie",
     "image": "http://iheartdogs.com/wp-content/shop-by-breed-image/rottweilers.png"
+  },
+  {
+    "id": 16,
+    "name": "Poodle",
+    "image": "https://assets.answersingenesis.org/img/articles/ka/v11/n4/poodle.png"
+  },
+  {
+    "id": 17,
+    "name": "Bishon Frisé",
+    "image": "https://s-media-cache-ak0.pinimg.com/originals/0c/2f/1d/0c2f1de8c7e894bf401cabfccfb3c262.png"
+  },
+  {
+    "id": 18,
+    "name": "Golden Retriver",
+    "image": "http://moziru.com/images/golden-retriever-clipart-transparent-13.gif"
   }
 ]
