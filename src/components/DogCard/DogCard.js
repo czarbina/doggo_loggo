@@ -1,17 +1,18 @@
 import React from "react";
 import "./DogCard.css";
 
-var newArray = [];
+// var newArray = [];
 
 const DogCard = props => (
   <div className="card" onClick= {
   	() => {
-  		props.shuffleCards();
+  		// props.shuffleCards();
   		// props.checkArray();
   		// newArray.push(props.id);
-  		props.pushArray(props.id);
-      props.addPoints();
-  		// console.log(newArray);
+  		// props.pushArray(props.id);
+      // props.addPoints();
+      props.checkArray(props.id);
+      // console.log(props.checkArray(props.id));
   		}
   	}>
     <div className="img-container">

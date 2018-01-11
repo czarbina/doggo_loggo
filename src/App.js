@@ -17,6 +17,14 @@ class App extends Component {
     points: 0
   };
 
+  addPoints = () => {
+    console.log("addPoints function below:");
+    const points = this.state.points + 1;
+    this.setState({points});
+    console.log("points:" + points);
+    console.log("========================");    
+  };
+
   shuffleCards = () => {
     console.log("shuffleCards function below");
     const friends = shuffle(this.state.friends);
@@ -37,18 +45,22 @@ class App extends Component {
 
   };
 
-  addPoints = () => {
-    console.log("addPoints function below:");
-    const points = this.state.points + 1;
-    this.setState({points});
-    console.log("points:" + points);
-    console.log("========================");    
+  checkArray = (friend) => {
+   if (this.state.newArray.indexOf(friend) === -1) {
+    this.addPoints();
+    this.pushArray(friend);
+    this.shuffleCards();
+   } 
+   else {alert("It's all over...");}
   }
+  
 
   render() {
     return (
       <Wrapper>
-        <Title>Doggo Memo Loggo</Title>
+        <Title
+          points={this.state.points}
+        />
         {this.state.friends.map(friend => (
           <DogCard
             // removeFriend={this.removeFriend}
@@ -57,11 +69,12 @@ class App extends Component {
             key={friend.id}
             name={friend.name}
             image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
-            shuffleCards={this.shuffleCards}
-            pushArray={this.pushArray}
-            addPoints={this.addPoints}
+            // occupation={friend.occupation}
+            // location={friend.location}
+            // shuffleCards={this.shuffleCards}
+            // pushArray={this.pushArray}
+            // addPoints={this.addPoints}
+            checkArray={this.checkArray}
           />
         ))}
       </Wrapper>
