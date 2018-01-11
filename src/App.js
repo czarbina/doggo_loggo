@@ -51,7 +51,15 @@ class App extends Component {
     this.pushArray(friend);
     this.shuffleCards();
    } 
-   else {alert("It's all over...");}
+   else {
+    alert("It's all over...");
+    this.shuffleCards();
+    this.setState({
+      friends,
+      newArray: [],
+      points: 0
+      }) 
+    }
   }
   
 
